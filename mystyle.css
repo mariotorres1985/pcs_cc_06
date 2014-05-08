@@ -56,6 +56,7 @@ background-color: #49484A;
 .contact{
 	background-color: #49484A;
 	color:#BDC3C7;
+  height: 500px;
 }
 
 
@@ -92,14 +93,12 @@ width:300px;
 
 
 /* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- 
+-------------------------------------------------- */
 
 /* Carousel base class */
 .carousel {
-  height: 150px;
-  margin-bottom: 60px;
-  background-color: #80B8AB;
-
+  height: 200px;
+  margin-bottom: 0px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -108,7 +107,7 @@ width:300px;
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 150px;
+  height: 200px;
   background-color: #80B8AB;
 }
 .carousel-inner > .item > img {
@@ -117,38 +116,8 @@ width:300px;
   left: 0;
   min-width: 100%;
   height: 500px;
-  background-color:#80B8AB;
 }
 
-
-.carousel-indicators{
-	bottom: 0px;
-
-
-}
-
-
-.carousel-indicators .active{
-	background-color: #49484A;
-
-
-
-}
-
-
-.carousel-indicators li { 
-	background-color: #BDC3C7;
-	border: none;
-
-
-
-}
-
-
-.carousel-control{
-display: ;
-
-}
 
 
 
@@ -166,7 +135,16 @@ display: ;
   border-style: none;
   padding: 2px
 
+
  
+  }
+
+
+  .modal-dialog{
+
+padding-top: 130px;
+
+
   }
 
 

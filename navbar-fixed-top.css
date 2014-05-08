@@ -1,0 +1,44 @@
+
+
+
+
+
+body {
+  /*min-height: 200px;
+  padding-top: 0px;*/
+}
+
+.hero{
+font-family: 'Source Sans Pro', sans-serif;
+background-color:#80B8AB;
+height: 500px;
+
+}
+
+.headline{
+padding-top: 50px;	
+opacity: 0.5;
+width: 550px;
+}
+
+.work{
+background-color:#80B8AB;
+height: auto;
+padding-top: 25px;
+}
+
+
+
+hr{
+height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0,0,0,0.5);
+}
+
+
+.about{
+text-align: justify;
+
+
+}
+
