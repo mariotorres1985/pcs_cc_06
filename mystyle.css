@@ -1,0 +1,177 @@
+
+
+
+        /*main csss*/
+/*==========================*/
+body {
+  min-height: 2000px;
+  padding-top: 0px;
+ /* width:1200px;*/
+
+}
+
+
+
+
+.hero{
+background-image:url("images/10.jpg");
+/*font-family: 'Source Sans Pro', sans-serif;
+*//*background-color:#80B8AB;
+*/height:775px;
+padding: 185px;
+
+
+}
+
+.headline{
+padding-top: 30px;	
+opacity: 0.5;
+width: 550px;
+height: 350px;
+}
+
+.work{
+background-color: #49484A;
+/*background-color:#80B8AB;*/
+padding: 30px;
+
+}
+
+.work h2{
+
+color:#BDC3C7;
+}
+
+#about{
+padding-right: 20px;
+	text-align: justify;
+  padding: 20px;
+}
+
+.navbar{
+background-color: #49484A;
+
+}
+
+.contact{
+	background-color: #49484A;
+	color:#BDC3C7;
+}
+
+
+.footer{
+
+border-color: #49484A;
+
+}
+
+
+
+.accordion{
+text-align: center;
+
+}
+
+
+/*accordion {
+  text-align: center;
+width:150px;
+
+-webkit-transition:width 2s;  For Safari 3.1 to 6.0 
+transition:width 2s;
+}
+
+.hero:hover
+{
+width:300px;
+}
+*/
+
+
+
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- 
+
+/* Carousel base class */
+.carousel {
+  height: 150px;
+  margin-bottom: 60px;
+  background-color: #80B8AB;
+
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 150px;
+  background-color: #80B8AB;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+  background-color:#80B8AB;
+}
+
+
+.carousel-indicators{
+	bottom: 0px;
+
+
+}
+
+
+.carousel-indicators .active{
+	background-color: #49484A;
+
+
+
+}
+
+
+.carousel-indicators li { 
+	background-color: #BDC3C7;
+	border: none;
+
+
+
+}
+
+
+.carousel-control{
+display: ;
+
+}
+
+
+
+
+
+
+          /*modal*/
+/*===============================*/
+
+
+
+.modal-content {
+
+  background: none;
+  border-style: none;
+  padding: 2px
+
+ 
+  }
+
+
+
+
+
+
+
