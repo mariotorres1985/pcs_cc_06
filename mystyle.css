@@ -221,7 +221,7 @@ padding-top: 130px;
 
 
 @media (max-width: 768px) {
-  
+
   .work{
 
    
@@ -244,8 +244,12 @@ padding: 5px;
 text-align: center;
 }
 
-.headline{
+.hero{
+padding: 125px 65px;
 
+}
+.headline{
+padding-top: 10px;
 height:auto;
 }
 
