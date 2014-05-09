@@ -4,6 +4,7 @@
         /*main csss*/
 /*==========================*/
 body {
+ background-color:#ECECEC ;
   min-height: 2000px;
   padding-top: 0px;
  /* width:1200px;*/
@@ -15,38 +16,52 @@ body {
 
 .hero{
 background-image:url("images/10.jpg");
+background-repeat: no-repeat;
+background-size: auto;
+
 /*font-family: 'Source Sans Pro', sans-serif;
 *//*background-color:#80B8AB;
 */height:775px;
-padding: 185px;
+padding: 185px 65px;
 
 
 }
 
 .headline{
 padding-top: 30px;	
-opacity: 0.5;
-width: 550px;
-height: 350px;
+opacity: 0.8;
+
 }
 
 .work{
 background-color: #49484A;
 /*background-color:#80B8AB;*/
-padding: 30px;
+padding-top: 35px;
+padding-bottom: 30px;
+padding-right: 10px;
+padding-left:10px;
 
 }
 
-.work h2{
+.work h1{
 
 color:#BDC3C7;
 }
-
 #about{
-padding-right: 20px;
-	text-align: justify;
-  padding: 20px;
+padding-top: 35px;
+
 }
+.about{
+padding-top: 25px;
+text-align: justify;
+
+}
+
+.aboutText{
+padding-bottom:50px ;
+
+}
+
 
 .navbar{
 background-color: #49484A;
@@ -56,11 +71,12 @@ background-color: #49484A;
 .contact{
 	background-color: #49484A;
 	color:#BDC3C7;
-  height: 500px;
+  height: 650px;
+  padding-top: 0px;
 }
 
 
-.footer{
+footer{
 
 border-color: #49484A;
 
@@ -74,22 +90,48 @@ text-align: center;
 }
 
 
-/*accordion {
-  text-align: center;
-width:150px;
+.button {
+background-color: #80B8AB;
 
--webkit-transition:width 2s;  For Safari 3.1 to 6.0 
-transition:width 2s;
-}
+} 
 
-.hero:hover
+
+
+.headline
 {
-width:300px;
+
+-moz-transition:background-color  3s;
+-webkit-transition:background-color 3s; /* For Safari 3.1 to 6.0 */
+transition:background-color 3s; /* will work with IE 10*/
 }
-*/
+
+.headline:hover
+{
+/*width:570px;*/
+background-color:#80B8AB;
+}
+
+
+.footer{
+  background-color: #49484A;
+  height:50px;
+}
+
+
+/*nav*/
+/*===================*/
+
+.navbar{
+  border:none;
+
+-webkit-box-shadow: 0 10px 6px -6px black;
+   -moz-box-shadow: 0 10px 6px -6px black;
+        box-shadow: 0 10px 6px -6px black;
+}
 
 
 
+}
 
 
 /* CUSTOMIZE THE CAROUSEL
@@ -102,7 +144,12 @@ width:300px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
+  padding: 60px;
   z-index: 10;
+}
+
+.carousel-caption h2{
+text-align: center;
 }
 
 /* Declare heights because of positioning of img element */
@@ -147,7 +194,47 @@ padding-top: 130px;
 
   }
 
+/*@media*/
+/*==============*/
 
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .work{
+
+   
+    background-color:#BDC3C7;
+  }
+
+.work h1{
+color:#49484A;
+}
+
+
+.images{
+padding: 5px;
+
+}
+
+
+.carousel-caption h2{
+  padding-top:50px;
+text-align: center;
+}
+
+
+
+}
+@media (min-width: 992px) {
+  
+
+@media (min-width: 1200px) {
+ 
 
 
 
