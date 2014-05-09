@@ -1,0 +1,31 @@
+/* line 19, ../sass/styleguide.sass */
+/*p {
+  font-family: "Source Sans Pro", sans-serif;
+}*/
+
+
+
+/* line 22, ../sass/styleguide.sass */
+/*h1 {
+  font-family: "Ubuntu", sans-serif;
+}
+*/
+h1,h2,h3,h4,h5,h6
+{
+font-family: 'PT Sans Narrow', sans-serif;
+}
+
+
+
+
+p{
+
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+
+
+a{
+
+font-family: 'Merriweather Sans', sans-serif;
+}
