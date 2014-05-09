@@ -35,6 +35,7 @@ background-image:url("images/10.jpg");
 background-repeat: no-repeat;
 background-size: auto;
 
+
 /*font-family: 'Source Sans Pro', sans-serif;
 *//*background-color:#80B8AB;
 */height:775px;
@@ -251,15 +252,24 @@ padding: 125px 20px;
 .headline{
 padding-top: 10px;
 height:auto;
+padding-bottom: 40px
 }
+
+
+
+
 
 }
 
-/*@media (min-width: 992px) {
+/*@media (min-width: 992px) {*/
   
 
-@media (min-width: 1200px) {*/
- 
+@media (min-width: 1200px) {
+ .hero{
+ background-image:url("images/10.jpg");
+background-repeat: no-repeat;
+background-size:100%;
+}
 
 
     /*aspect ratio */
